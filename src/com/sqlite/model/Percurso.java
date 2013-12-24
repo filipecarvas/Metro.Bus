@@ -21,4 +21,12 @@ public class Percurso {
 		this.ordem = ordem;
 		this.hora = hora;
 	}
+	
+	public void setHora(String hora) {
+		this.hora = hora;
+	}
+	
+	public String getHora() {
+		return this.hora;
+	}
 }
