@@ -29,10 +29,10 @@ public class MainActivity extends Activity {
 		Button button2 = (Button) findViewById(R.id.button2);
 		button2.setOnClickListener(new OnClickListener() {
 			public void onClick(View view) {
-
-				//resource 1
-				//Intent i = new Intent(MainActivity.this, QRCodeActivity.class);
-				//startActivity(i);
+				
+				// Bluetooth
+				Intent i = new Intent(MainActivity.this, com.metrobus.Bluetooth.BluetoothClientActivity.class);
+				startActivity(i);
 			}
 		});
 		
@@ -47,5 +47,4 @@ public class MainActivity extends Activity {
 		});
 		
 	}
-
 }

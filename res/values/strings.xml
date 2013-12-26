@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_global">Service Metro/Bus</string>
     <string name="scan">Scan</string>
+    <string name="search_devices">Search Stops</string>
 
 </resources>

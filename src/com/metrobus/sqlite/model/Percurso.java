@@ -29,38 +29,4 @@ public class Percurso {
 	public String getHora() {
 		return this.hora;
 	}
-
-	public int getId_zona() {
-		return id_zona;
-	}
-
-	public void setId_zona(int id_zona) {
-		this.id_zona = id_zona;
-	}
-
-	public int getId_percurso() {
-		return id_percurso;
-	}
-
-	public void setId_percurso(int id_percurso) {
-		this.id_percurso = id_percurso;
-	}
-
-	public int getId_tipotrasnporte() {
-		return id_tipotrasnporte;
-	}
-
-	public void setId_tipotrasnporte(int id_tipotrasnporte) {
-		this.id_tipotrasnporte = id_tipotrasnporte;
-	}
-
-	public String getOrdem() {
-		return ordem;
-	}
-
-	public void setOrdem(String ordem) {
-		this.ordem = ordem;
-	}
-	
-	
 }
